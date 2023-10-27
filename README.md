@@ -1,10 +1,10 @@
-这段代码是一个简单的Python程序，用于读取名为 "setting.xml" 的XML文件，然后执行复利计算，最后将结果保存在名为 "result.txt" 的文本文件中。以下是有关如何使用此程序的详细说明：
+# 这段代码是一个简单的Python程序，用于读取名为 "setting.xml" 的XML文件，然后执行复利计算，最后将结果保存在名为 "result.txt" 的文本文件中。以下是有关如何使用此程序的详细说明：
 
-1. 准备 XML 文件：
+# 1. 准备 XML 文件：
 
-首先，您需要创建一个名为 "setting.xml" 的XML文件，其中包含复利计算所需的参数。在您的示例中，XML文件的内容如下：
+#首先，您需要创建一个名为 `setting.xml` 的XML文件，其中包含复利计算所需的参数。在您的示例中，XML文件的内容如下：
 
-xml
+```xml
 Copy code
 <data>
     <x>10000</x>
@@ -18,7 +18,7 @@ Copy code
 <y>：投资年份
 您可以根据需要修改这些值。
 
-2. 运行 Python 程序：
+# 2. 运行 Python 程序：
 
 将上述的Python程序保存为一个Python文件（例如，"calculate_compound_interest.py"），确保它与 "setting.xml" 文件在同一个文件夹中。
 
@@ -31,7 +31,7 @@ Copy code
 python calculate_compound_interest.py
 这将执行程序，读取 "setting.xml" 文件中的数据，进行复利计算，然后生成一个名为 "result.txt" 的文本文件。
 
-3. 查看结果：
+#3. 查看结果：
 
 打开 "result.txt" 文件，您将看到以下内容：
 
