@@ -31,7 +31,7 @@ Copy code
 python calculate_compound_interest.py
 这将执行程序，读取 "setting.xml" 文件中的数据，进行复利计算，然后生成一个名为 "result.txt" 的文本文件。
 
-#3. 查看结果：
+# 3. 查看结果：
 
 打开 "result.txt" 文件，您将看到以下内容：
 
